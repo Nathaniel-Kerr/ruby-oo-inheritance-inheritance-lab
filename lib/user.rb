@@ -1,0 +1,11 @@
+class User
+
+    attr_accessor :first_name, :last_name, :knowledge
+
+    @@all = []
+
+    def initialize
+        @knowledge = []
+    end
+    
+end
